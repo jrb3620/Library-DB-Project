@@ -1,0 +1,147 @@
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 838458f..0000000[m
+[1m--- a/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-/dist/[m
+\ No newline at end of file[m
+[1mdiff --git a/build.xml b/build.xml[m
+[1mdeleted file mode 100644[m
+[1mindex e11167c..0000000[m
+[1m--- a/build.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,73 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<!-- You may freely edit this file. See commented blocks below for -->[m
+[31m-<!-- some examples of how to customize the build. -->[m
+[31m-<!-- (If you delete it and reopen the project it will be recreated.) -->[m
+[31m-<!-- By default, only the Clean and Build commands use this build script. -->[m
+[31m-<!-- Commands such as Run, Debug, and Test only use this build script if -->[m
+[31m-<!-- the Compile on Save feature is turned off for the project. -->[m
+[31m-<!-- You can turn off the Compile on Save (or Deploy on Save) setting -->[m
+[31m-<!-- in the project's Project Properties dialog box.-->[m
+[31m-<project name="DBMSProject" default="default" basedir=".">[m
+[31m-    <description>Builds, tests, and runs the project DBMSProject.</description>[m
+[31m-    <import file="nbproject/build-impl.xml"/>[m
+[31m-    <!--[m
+[31m-[m
+[31m-    There exist several targets which are by default empty and which can be [m
+[31m-    used for execution of your tasks. These targets are usually executed [m
+[31m-    before and after some main targets. They are: [m
+[31m-[m
+[31m-      -pre-init:                 called before initialization of project properties[m
+[31m-      -post-init:                called after initialization of project properties[m
+[31m-      -pre-compile:              called before javac compilation[m
+[31m-      -post-compile:             called after javac compilation[m
+[31m-      -pre-compile-single:       called before javac compilation of single file[m
+[31m-      -post-compile-single:      called after javac compilation of single file[m
+[31m-      -pre-compile-test:         called before javac compilation of JUnit tests[m
+[31m-      -post-compile-test:        called after javac compilation of JUnit tests[m
+[31m-      -pre-compile-test-single:  called before javac compilation of single JUnit test[m
+[31m-      -post-compile-test-single: called after javac compilation of single JUunit test[m
+[31m-      -pre-jar:                  called before JAR building[m
+[31m-      -post-jar:                 called after JAR building[m
+[31m-      -post-clean:               called after cleaning build products[m
+[31m-[m
+[31m-    (Targets beginning with '-' are not intended to be called on their own.)[m
+[31m-[m
+[31m-    Example of inserting an obfuscator after compilation could look like this:[m
+[31m-[m
+[31m-        <target name="-post-compile">[m
+[31m-            <obfuscate>[m
+[31m-                <fileset dir="${build.classes.dir}"/>[m
+[31m-            </obfuscate>[m
+[31m-        </target>[m
+[31m-[m
+[31m-    For list of available properties check the imported [m
+[31m-    nbproject/build-impl.xml file. [m
+[31m-[m
+[31m-[m
+[31m-    Another way to customize the build is by overriding existing main targets.[m
+[31m-    The targets of interest are: [m
+[31m-[m
+[31m-      -init-macrodef-javac:     defines macro for javac compilation[m
+[31m-      -init-macrodef-junit:     defines macro for junit execution[m
+[31m-      -init-macrodef-debug:     defines macro for class debugging[m
+[31m-      -init-macrodef-java:      defines macro for class execution[m
+[31m-      -do-jar:                  JAR building[m
+[31m-      run:                      execution of project [m
+[31m-      -javadoc-build:           Javadoc generation[m
+[31m-      test-report:              JUnit report generation[m
+[31m-[m
+[31m-    An example of overriding the target for project execution could look like this:[m
+[31m-[m
+[31m-        <target name="run" depends="DBMSProject-impl.jar">[m
+[31m-            <exec dir="bin" executable="launcher.exe">[m
+[31m-                <arg file="${dist.jar}"/>[m
+[31m-            </exec>[m
+[31m-        </target>[m
+[31m-[m
+[31m-    Notice that the overridden target depends on the jar target and not only on [m
+[31m-    the compile target as the regular run target does. Again, for a list of available [m
+[31m-    properties which you can use, check the target you are overriding in the[m
+[31m-    nbproject/build-impl.xml file. [m
+[31m-[m
+[31m-    -->[m
+[31m-</project>[m
+[1mdiff --git a/build/classes/.netbeans_automatic_build b/build/classes/.netbeans_automatic_build[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/build/classes/.netbeans_update_resources b/build/classes/.netbeans_update_resources[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook$1.class b/build/classes/DBMSProject/FrmAddBook$1.class[m
+[1mdeleted file mode 100644[m
+[1mindex 1f6eebf..0000000[m
+Binary files a/build/classes/DBMSProject/FrmAddBook$1.class and /dev/null differ
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook$2.class b/build/classes/DBMSProject/FrmAddBook$2.class[m
+[1mdeleted file mode 100644[m
+[1mindex 0fa4839..0000000[m
+Binary files a/build/classes/DBMSProject/FrmAddBook$2.class and /dev/null differ
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook$3.class b/build/classes/DBMSProject/FrmAddBook$3.class[m
+[1mdeleted file mode 100644[m
+[1mindex 90e7999..0000000[m
+Binary files a/build/classes/DBMSProject/FrmAddBook$3.class and /dev/null differ
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook$4.class b/build/classes/DBMSProject/FrmAddBook$4.class[m
+[1mdeleted file mode 100644[m
+[1mindex c7d1fb4..0000000[m
+Binary files a/build/classes/DBMSProject/FrmAddBook$4.class and /dev/null differ
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook$5.class b/build/classes/DBMSProject/FrmAddBook$5.class[m
+[1mdeleted file mode 100644[m
+[1mindex ee62421..0000000[m
+Binary files a/build/classes/DBMSProject/FrmAddBook$5.class and /dev/null differ
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook.class b/build/classes/DBMSProject/FrmAddBook.class[m
+[1mdeleted file mode 100644[m
+[1mindex 6f36013..0000000[m
+Binary files a/build/classes/DBMSProject/FrmAddBook.class and /dev/null differ
+[1mdiff --git a/build/classes/DBMSProject/FrmAddBook.form b/build/classes/DBMSProject/FrmAddBook.form[m
+[1mdeleted file mode 100644[m
+[1mindex 8349e34..0000000[m
+[1m--- a/build/classes/DBMSProject/FrmAddBook.form[m
+[1m+++ /dev/null[m
+[36m@@ -1,158 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8" ?>[m
+[31m-[m
+[31m-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">[m
+[31m-  <Properties>[m
+[31m-    <Property name="closable" type="boolean" value="true"/>[m
+[31m-  </Properties>[m
+[31m-  <SyntheticProperties>[m
+[31m-    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>[m
+[31m-  </SyntheticProperties>[m
+[31m-  <AuxValues>[m
+[31m-    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>[m
+[31m-    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>[m
+[31m-    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>[m
+[31m-    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>[m
+[31m-    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>[m
+[31m-    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>[m
+[31m-    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>[m
+[31m-    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>[m
+[31m-    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>[m
+[31m-  </AuxValues>[m
+[31m-[m
+[31m-  <Layout>[m
+[31m-    <DimensionLayout dim="0">[m
+[31m-      <Group type="103
